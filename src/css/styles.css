@@ -77,3 +77,19 @@ main .personagem .imagem {
     gap: 10px;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+.botoes .botao {
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.botoes .botao img {
+    border-radius: 50%; /*arredondamento*/
+}
+
+.botoes .botao.selecionado {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #d9d9d9;
+}
